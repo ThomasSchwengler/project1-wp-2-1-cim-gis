@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<style>
+    .mdl-data-table {
+        white-space: unset;
+    }
+
+    .mdl-layout__content {
+        overflow-x: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+</style>
+
+<head>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <meta charset="UTF-8">
+    <title>Template</title>
+</head>
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Countries</span>
+        <nav class="mdl-navigation">
+            
+            <a class="mdl-navigation__link" href="Switzerland.html">Switzerland</a>
+            
+            <a class="mdl-navigation__link" href="austria.html">Austria</a>
+            
+            <a class="mdl-navigation__link" href="germany.html">Germany</a>
+            
+            <a class="mdl-navigation__link" href="template.html">Template</a>
+            
+        </nav>
+    </div>
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">Template</span>
+            <div class="mdl-layout-spacer"></div>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="index.html">Home</a>
+                <a class="mdl-navigation__link" href="links.html">Links</a>
+                <a class="mdl-navigation__link" href="contribute.html">Contribute</a>
+                <a class="mdl-navigation__link" href="categories.html">Data categories</a>
+            </nav>
+        </div>
+    </header>
+    <main class="mdl-layout__content">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col">
+                <table border="1" class="dataframe mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Category</th>
+      <th>Source</th>
+      <th>Web-Source</th>
+      <th>Availability</th>
+      <th>Coverage (GEO)</th>
+      <th>Resolution</th>
+      <th>Includes Non-Residential</th>
+      <th>Comment (Resolution, Quality,..)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Building footprints</td>
+      <td>Names the source/provider of the data set. This can be for example, a  institution, a government or a company.</td>
+      <td>Where can the data set or further information on the data set be obtained. Give URL</td>
+      <td>'Open' - Data-Set can be generally used free of charge for any purpose; 'Public Sector Information (PCI) and Open Government Data' - A charge may apply for certain usage e.g. commercial usage; 'Academic' - Data can be used free of charge for research purposes (often the case for PCI data); 'Commercial' - Data use is licensed for a fee; 'Application restricted' - Data can only be used with certain applications (e.g. Google Earth); 'Private' - Data is not accessible to outsiders</td>
+      <td>Describes which geographic area is covered by the data set.</td>
+      <td>To which unit is the information provided. In cases of geo referenced data this might be the geo-resolution or the grid-size in which information is available.</td>
+      <td>Includes the data set information on non-residential buildings? 'Yes', 'No', 'N/A'</td>
+      <td>General comments on the data set.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Building height</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3D building model</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Digital elevation model</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Built form</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Thermal envelope</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Building age</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Building use</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Occupant Composition</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Tenure</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Building Energy System</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Address Data</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Building Typology</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Stock Development</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Energy Generation and Distribution</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Weather Data</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+            </div>
+        </div>
+    </main>
+</div>
+</html>
